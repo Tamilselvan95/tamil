@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int a,b;
+printf("Enter 2 values");
+scanf("%d %d",&a,&b);
+if(a>b)
+printf("%d is greater then %d",a,b);
+else if(a<b)
+printf("%d is greater then %d",b,a);
+else
+printf("Equal");
+return 0;
+}

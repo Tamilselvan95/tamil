@@ -8,6 +8,9 @@ printf("enter the format(dd-mm-yyyy):\n");
 scanf("%d-%d-%d",&date,&month,&year);
 switch(month)
 {
+  default:
+  printf("Invalid");
+  break;
 case 1:
 printf("January");
 break;

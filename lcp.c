@@ -4,7 +4,7 @@
 void main()
 {
 char a[100],b[100],c[100];
-int d,e,f,i;
+int d,e,f,i,j=0;
 gets(a);
 gets(b);
 d=strlen(a);
@@ -19,9 +19,11 @@ if(a[i]==b[i])
 {
  c[i]=a[i];
  printf("%c",c[i]);
+j++;
  }
  else
  break;
  }
+ printf("%dNumber of comman prefix char",j);
  getch();
  }

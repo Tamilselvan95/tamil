@@ -13,6 +13,7 @@ a/=10;
 }
 if(d==e)
 printf("%d\n",e);
+return 0;
 }
 void main()
 {

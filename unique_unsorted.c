@@ -2,21 +2,22 @@
 #include<conio.h>
 void main()
 {
-int a[100],n,i,j,c;
-scanf("%d",&n);
+int a[100],s,i,j,value=0,k;
+printf("Enter the size");
+scanf("%d",&s);
 for(i=0;i<n;i++)
 {
 scanf("%d",&a[i]);
 }
-for(i=0;i<n;i++)
-{
-c=0;
 for(j=0;j<n;j++)
 {
-if(a[i]==a[j])
-c++;
+value=0;
+for(k=0;k<n;k++)
+{
+if(a[j]==a[k])
+value++;
 }
-if(c==1)
+if(value==1)
 printf("%d",a[i]);
 }
 getch();

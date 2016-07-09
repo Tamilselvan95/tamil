@@ -29,9 +29,9 @@ for(j=i+1;a[j]!='\0';j++)
 for(i=1;a[i]!='@';i++)
 e++;
 if(b==1&&c==1&&d==5&&e>3&&x==1)
-printf("v");
+printf("valid");
 else
-printf("IN");
+printf("Invalid");
 
 getch();
 }

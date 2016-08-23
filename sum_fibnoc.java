@@ -18,7 +18,7 @@ public class fin {
          next = first + second;
          first = second;
          second = next;
-      }System.out.println(next);
+      }
       sum=sum+next;
    }System.out.println(sum);         
     
